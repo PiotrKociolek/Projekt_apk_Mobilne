@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD:MyApplication/app/src/main/AndroidManifest.xml
 
 <<<<<<< HEAD:NaPolowanie/app/src/main/AndroidManifest.xml
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,6 +13,9 @@
 =======
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 >>>>>>> parent of cafe5c9 (poprawiona nazwa i działanie planu polowań pdf):MyApplication/app/src/main/AndroidManifest.xml
+=======
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+>>>>>>> parent of 4c7d237 (dodany aparat, nie zawsze odpala [unstable]):NaPolowanie/app/src/main/AndroidManifest.xml
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -22,13 +26,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity
-            android:name=".camera"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".WebActivity"
             android:exported="false">
