@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+
+
+
         Button button = findViewById(R.id.viewPdf);
         button.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -29,6 +33,23 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), WebActivity.class);
             intent.putExtra("pdf_url","https://www.soundczech.cz/temp/lorem-ipsum.pdf"); //plan polowan
             startActivity(intent);
+
+            Button aparat; //aparat poczatek
+            aparat = (Button) findViewById(R.id.aparat);
+            aparat.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        Intent intent1 = new Intent();
+                        intent1.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+                        startActivity(intent1);
+                    } catch (Exception e)
+                    {
+                        e.printStackTrace();
+                    }
+
+                }//aparat koniec
+            });
 
         }
     });
