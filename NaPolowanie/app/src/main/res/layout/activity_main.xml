@@ -6,21 +6,47 @@
     android:layout_height="match_parent"
     android:id="@+id/linear"
     tools:context=".MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical"
+    android:background="@drawable/popupgb">
+
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+        android:text="Zapraszamy do sprawdzenia nowego planu polowań."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polowanie w każdą niedziel w trakcie sezonu"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/cardview_compat_inset_shadow"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/white"
+                android:background="@drawable/btnbg"
+                android:text="OK"/>
 
     <Button
         android:id="@+id/viewPdf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
         android:text="Plan Polowań" />
 
     <Button
         android:id="@+id/aparat"
-        android:layout_width="128dp"
-        android:layout_height="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="aparat"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false" />
 
 
 </LinearLayout>
