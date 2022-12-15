@@ -2,51 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/linear"
-    tools:context=".MainActivity"
+    android:background="@drawable/popupgb"
     android:orientation="vertical"
-    android:background="@drawable/popupgb">
+    tools:context=".MainActivity">
 
 
     <TextView
         android:layout_width="411dp"
-        android:layout_height="wrap_content"
+        android:layout_height="47dp"
         android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
-        android:text="Zapraszamy do sprawdzenia nowego planu polowań."
+        android:background="@drawable/ic_launcher_background"
+        android:text="@string/zapraszamy_do_sprawdzenia_nowego_planu_polowa"
         android:textColor="@color/black"
-        android:textSize="18dp"
-        />
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="@string/polowanie_w_ka_d_niedziel_w_trakcie_sezonu"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Polowanie w każdą niedziel w trakcie sezonu"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
+        android:background="@drawable/btnbg"
+        android:padding="@dimen/cardview_compat_inset_shadow"
+        android:text="@string/ok"
+        android:textColor="@color/white" />
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="@dimen/cardview_compat_inset_shadow"
-                android:layout_alignParentEnd="true"
-                android:textColor="@color/white"
-                android:background="@drawable/btnbg"
-                android:text="OK"/>
-
-    <Button
+    <ImageButton
         android:id="@+id/viewPdf"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plan Polowań" />
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:background="@drawable/nav_map_140x133" />
 
-    <Button
+    <ImageButton
         android:id="@+id/aparat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="aparat"
-        android:textAllCaps="false" />
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="@string/aparat"
+        android:textAllCaps="false"
+        android:background="@drawable/aparat_ico"/>
 
 
 </LinearLayout>

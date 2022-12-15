@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Na Polowanie</string>
+    <string name="aparat">aparat</string>
+    <string name="plan_polowa">Plan Polowań</string>
+    <string name="ok">OK</string>
+    <string name="polowanie_w_ka_d_niedziel_w_trakcie_sezonu">Polowanie w każdą niedziel w trakcie sezonu</string>
+    <string name="zapraszamy_do_sprawdzenia_nowego_planu_polowa">Zapraszamy do sprawdzenia nowego planu polowań.</string>
 </resources>
