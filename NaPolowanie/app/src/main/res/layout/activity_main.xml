@@ -14,7 +14,7 @@
         android:layout_width="411dp"
         android:layout_height="47dp"
         android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
-        android:background="@drawable/ic_launcher_background"
+        android:background="@drawable/btnbg"
         android:text="@string/zapraszamy_do_sprawdzenia_nowego_planu_polowa"
         android:textColor="@color/black"
         android:textSize="18sp" />
@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="@drawable/ic_launcher_background"
+        android:background="@drawable/btnbg"
         android:text="@string/polowanie_w_ka_d_niedziel_w_trakcie_sezonu"
         android:textColor="@color/black"
         android:textSize="20sp" />
