@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button button = findViewById(R.id.viewPdf);//pdf poczatek
+        ImageButton button = findViewById(R.id.viewPdf);//pdf poczatek
         button.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -35,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("pdf_url","https://www.soundczech.cz/temp/lorem-ipsum.pdf"); //plan polowan
             startActivity(intent);//pdf koniec
 
-            Button aparat; //aparat poczatek
-            aparat = (Button) findViewById(R.id.aparat);
+            ImageButton aparat; //aparat poczatek
+            aparat = (ImageButton) findViewById(R.id.aparat);
             aparat.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
