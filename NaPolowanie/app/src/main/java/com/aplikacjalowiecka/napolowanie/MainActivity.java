@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 }//koniec programu
 
 }
+//tu bedzie mapa
 //private void CreatepopUpwindow() {
 //    LayoutInflater inflater= (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
 //    View popUpView=inflater.inflate(R.layout.activity_main,null);
