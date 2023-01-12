@@ -98,44 +98,5 @@
         app:layout_constraintStart_toEndOf="@+id/latarka"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plan Polowań"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:visibility="visible"
-        app:layout_constraintTop_toBottomOf="@+id/viewPdf"
-        tools:layout_editor_absoluteX="62dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Latarka"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:visibility="visible"
-        app:layout_constraintTop_toBottomOf="@+id/latarka"
-        tools:layout_editor_absoluteX="101dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="Miejsca Zbiórki"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintTop_toBottomOf="@+id/gps"
-        tools:layout_editor_absoluteX="258dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aparat"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintTop_toBottomOf="@+id/aparat"
-        tools:layout_editor_absoluteX="300dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
